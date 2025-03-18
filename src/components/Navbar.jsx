@@ -1,6 +1,6 @@
 const Navbar = () => {
 	return (
-		<div className="navbar bg-[#03135b] shadow-sm">
+		<div className="navbar bg-[#03135b]">
 			<div className="navbar-start">
 				<div className="dropdown">
 					<div
@@ -77,7 +77,7 @@ const Navbar = () => {
 				</ul>
 			</div>
 			<div className="navbar-end">
-				<a className="btn bg-[#FF693B] border-none px-12">
+				<a className="btn bg-[#FF693B] border-none px-12 transition-transform duration-300 hover:scale-110">
 					See Pricing
 				</a>
 			</div>
