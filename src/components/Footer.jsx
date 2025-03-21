@@ -13,7 +13,7 @@ const Footer = () => {
 
 	return (
 		<>
-			<footer className="footer sm:footer-horizontal bg-[#001243] pt-28 p-10 border-y border-[#E5E7EB33]">
+			<footer className="footer sm:footer-horizontal bg-[#001655] pt-28 py-10 px-40 border-y border-[#E5E7EB33]">
 				<aside>
 					<img
 						src="https://i.ibb.co.com/27Yqk6J7/Frame-404-2x.png"
@@ -132,7 +132,7 @@ const Footer = () => {
 			</footer>
 
 			{/* Copyright Section */}
-			<div className="bg-[#001243] text-white text-center py-4">
+			<div className="bg-[#001655] text-white text-center py-4">
 				<p className="text-sm font-semibold">
 					&copy;{new Date().getFullYear()} - Envobyte, All rights
 					reserved.

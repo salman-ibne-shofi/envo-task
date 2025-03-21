@@ -1,6 +1,8 @@
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
 	return (
-		<div className="navbar bg-[#03135b]">
+		<div className="navbar bg-[#03135b] shadow-xs px-12 fixed top-0 z-[999999]">
 			<div className="navbar-start">
 				<div className="dropdown">
 					<div
@@ -28,23 +30,23 @@ const Navbar = () => {
 						tabIndex={0}
 						className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
 					>
-						<li>
-							<a>Home</a>
+						<li className="hover:bg-[#FF693B] rounded-sm">
+							<Link to="/">Home</Link>
 						</li>
-						<li>
-							<a>Servive</a>
+						<li className="hover:bg-[#FF693B] rounded-sm">
+							<Link to="/service">Service</Link>
 						</li>
-						<li>
-							<a>Combo Sales</a>
+						<li className="hover:bg-[#FF693B] rounded-sm">
+							<Link to="/combo">Combo Sales</Link>
 						</li>
-						<li>
-							<a>Portfolio</a>
+						<li className="hover:bg-[#FF693B] rounded-sm">
+							<Link to="/portfolio">Portfolio</Link>
 						</li>
-						<li>
-							<a>About Us</a>
+						<li className="hover:bg-[#FF693B] rounded-sm">
+							<Link to="/about">About Us</Link>
 						</li>
-						<li>
-							<a>Blogs</a>
+						<li className="hover:bg-[#FF693B] rounded-sm">
+							<Link to="/blogs">Blogs</Link>
 						</li>
 					</ul>
 				</div>
@@ -56,30 +58,33 @@ const Navbar = () => {
 			</div>
 			<div className="navbar-center hidden lg:flex">
 				<ul className="menu menu-horizontal px-1">
-					<li>
-						<a>Home</a>
+					<li className="hover:bg-[#FF693B] rounded-sm">
+						<Link to="/">Home</Link>
 					</li>
-					<li>
-						<a>Servive</a>
+					<li className="hover:bg-[#FF693B] rounded-sm">
+						<Link to="/service">Service</Link>
 					</li>
-					<li>
-						<a>Combo Sales</a>
+					<li className="hover:bg-[#FF693B] rounded-sm">
+						<Link to="/combo">Combo Sales</Link>
 					</li>
-					<li>
-						<a>Portfolio</a>
+					<li className="hover:bg-[#FF693B] rounded-sm">
+						<Link to="/portfolio">Portfolio</Link>
 					</li>
-					<li>
-						<a>About Us</a>
+					<li className="hover:bg-[#FF693B] rounded-sm">
+						<Link to="/about">About Us</Link>
 					</li>
-					<li>
-						<a>Blogs</a>
+					<li className="hover:bg-[#FF693B] rounded-sm">
+						<Link to="/blogs">Blogs</Link>
 					</li>
 				</ul>
 			</div>
 			<div className="navbar-end">
-				<a className="btn bg-[#FF693B] border-none px-12 transition-transform duration-300 hover:scale-110">
+				<Link
+					to="/"
+					className="btn bg-[#FF693B] border-none px-12 transition-transform duration-300 hover:scale-110 text-white"
+				>
 					See Pricing
-				</a>
+				</Link>
 			</div>
 		</div>
 	);

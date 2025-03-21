@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+.swiper {
+	width: 100%;
+	padding-right: 60px;
+	overflow: visible;
+}
+
+.swiper .nav-arr {
+	@apply px-2 border bg-[#ff693b] transition-colors rounded-md font-bold scale-125 cursor-pointer border-[#ff693b] text-white;
+}
+
+.swiper .navDisabled {
+	@apply border-[#0c89ff] text-[#0c89ff] bg-transparent cursor-default;
+}
+
+.hww-bg {
+	background-image: url("https://i.postimg.cc/gkkvh4Mj/Group-1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.let-bg {
+	background-image: url("https://i.ibb.co.com/N2Qd0cj6/Rectangle-6052.png");
+}
