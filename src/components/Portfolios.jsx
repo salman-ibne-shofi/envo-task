@@ -1,5 +1,5 @@
 import React from "react";
-import PortTabs from "./portTabs";
+import PortTabs from "./PortTabs";
 
 function Portfolios() {
 	return (
