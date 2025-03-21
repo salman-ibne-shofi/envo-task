@@ -1,4 +1,4 @@
-import TabsContainer from "./tabsContainer";
+import TabsContainer from "./TabsContainer";
 
 import React from "react";
 
